@@ -27,8 +27,8 @@ class CashRegister
      success_message ="After the discount, the total comes to $#{@total.to_i}."
      success_message
    else 
-     success_message1 = "There is no discount to apply."
-     success_message1
+     success_message = "There is no discount to apply."
+     success_message
    end
   end 
   
